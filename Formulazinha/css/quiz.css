@@ -1,0 +1,122 @@
+body {
+background-color: #252323;
+font-family: 'Roboto', sans-serif;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+
+h1 {
+text-align: center;
+}
+
+#title {
+text-decoration: underline;
+}
+
+#quiz {
+text-indent: 10px;
+display:none;
+}
+
+.button {
+border:4px solid;
+border-radius:5px;
+width: 60px;
+padding-left:5px;
+padding-right: 5px;
+position: relative;
+float:right;
+background-color: #DCDCDC;
+color: black;
+margin: 0 2px 0 2px;
+}
+
+.button.active {
+background-color: #F8F8FF;
+color: #525252;
+}
+
+button {
+position: relative;
+float:right;
+}
+
+.button a {
+text-decoration: none;
+color: black;
+}
+
+#container {
+width: 50%;
+margin: 0 auto;
+padding: 0px 25px 40px 10px;
+background-color: grey;
+border:4px solid black;
+border-radius:5px;
+color: #FFFFFF;
+font-weight: bold;
+box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#prev {
+display:none;
+}
+
+#start {
+display:none;
+width: 90px;
+}
+
+.boxxx{
+padding-top: 100px;
+}
+
+.links ul li{
+padding-top: 10px;
+padding-left: 5px;
+display: inline-block;
+}
+    
+.links{
+width: 25%;
+float: left;
+}
+    
+a:hover{
+text-decoration: underline;
+}
+    
+    
+a{
+text-decoration: none;
+}
+    
+.cor{
+color: white;
+}
+
+.logo{
+float: left;
+width: 75%;
+background-color: #252323;
+}
+
+.menu{
+width: 100%;
+height: 75px;
+background-color: #252323;
+}
+
+main{
+width: 980px;
+position: relative;
+margin: 0 auto;
+}
+    
